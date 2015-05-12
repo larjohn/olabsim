@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace OlabSim\Events;
 
 abstract class Event {
 

@@ -1,6 +1,6 @@
-<?php namespace App\Services;
+<?php namespace OlabSim\Services;
 
-use App\User;
+use OlabSim\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 

@@ -6,10 +6,10 @@
  * Time: 9:57 μμ
  */
 
-namespace App\Http\Controllers;
+namespace OlabSim\Http\Controllers;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use OlabSim\Http\Requests;
+use OlabSim\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class SimController extends Controller {

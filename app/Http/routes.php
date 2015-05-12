@@ -18,6 +18,10 @@ Route::get('home', 'HomeController@index');
 Route::get('sim', 'SimController@mirror');
 Route::post('api/sim', 'SimController@mirror');
 
+
+Route::post('api/assets', 'AssetsController@saveNew');
+Route::get('api/assets/{guid}', 'AssetsController@getByGuid');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

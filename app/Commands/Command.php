@@ -1,4 +1,4 @@
-<?php namespace App\Commands;
+<?php namespace OlabSim\Commands;
 
 abstract class Command {
 

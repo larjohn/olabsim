@@ -1,4 +1,4 @@
-<?php namespace App\Providers;
+<?php namespace OlabSim\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

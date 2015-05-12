@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: OlabSim
+        psr4_prefix: OlabSim
         src_path: app
