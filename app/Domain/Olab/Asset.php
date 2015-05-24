@@ -9,6 +9,7 @@
 namespace OlabSim\Domain\Olab;
 
 
+use Eloquent;
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -19,7 +20,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property  y
  * @property  x
  */
-class Asset extends Model{
+class Asset extends \Eloquent{
     protected $fillable = ["guid", "name", "is_environment", "parent_environment_guid", "width","height","length","x","y","z"];
     public static function create(array $attributes){
         $asset = parent::create($attributes);

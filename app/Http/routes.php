@@ -21,6 +21,8 @@ Route::post('api/sim', 'SimController@mirror');
 
 Route::post('api/assets', 'AssetsController@saveNew');
 Route::get('api/assets/{guid}', 'AssetsController@getByGuid');
+Route::get('api/assets', 'AssetsController@getAll');
+Route::put('api/assets/{guid}', 'AssetsController@updateByGuid');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
