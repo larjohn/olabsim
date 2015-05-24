@@ -32,7 +32,7 @@ class Asset extends \Eloquent{
             $asset->width= $attributes["size"]["width"];
             $asset->length= $attributes["size"]["length"];
         }
-        if(isset($input["position"])){
+        if(isset($attributes["position"])){
             $asset->x= $attributes["position"]["x"];
             $asset->y= $attributes["position"]["y"];
             $asset->z= $attributes["position"]["z"];
